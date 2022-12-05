@@ -61,4 +61,5 @@ def recommend():
 
 if __name__ == '__main__':
     #app.run()
-    app.run('localhost', 5000)
+    #app.run('localhost', 5000)
+    app.run(debug=False, host = '0.0.0.0')
